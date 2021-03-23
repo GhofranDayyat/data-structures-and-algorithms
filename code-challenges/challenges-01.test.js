@@ -68,7 +68,7 @@ const speaker = (words, callback) => {
   // Solution code here...
   const localArray=[];
   words.forEach(element => {
-    localArray.push(greeting(element));
+    localArray.push(callback(element));
   });
   return localArray;
 };
@@ -95,7 +95,7 @@ const addValues = (arr, value) => {
 
 const addNumbers = (num, arr, times, callback) => {
   for (let i = 0; i < times; i++) {
-    addValues(arr,num);
+    callback(arr,num);
   }
   return arr;
 };
