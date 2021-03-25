@@ -75,11 +75,10 @@ Return an array containing all the matches.
 
 const isCapitalized = (str) => {
   // Solution code here...
-  const newArr = [];
-  const regex = /\[A-Z]/g;
-  newArr.push(str.match(regex));
+  const matchWord = /[A-Z][a-zA-Z]*/g;
+  let result=(str.match(matchWord);
   
-  return newArr;
+  return result ? result:[];
 };
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
@@ -89,6 +88,14 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 
 const citiesAtoJ = (arr) => {
   // Solution code here...
+  const matchWord = /^[A-J]/;
+  const newArr = [];
+  arr.forEach((city) => {
+    if(matchWord.test(city)){
+      newArr.push(city);
+    }
+  });  
+  return newArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
