@@ -26,6 +26,7 @@ let starWarsPeople = [
 
 const sortStarWarsCharacters = (starWarsArr) => {
   // Solution code here...
+  return starWarsArr.sort((a, b)=>(b.height - a.height));
 }
 
 /* ------------------------------------------------------------------------------------------------
@@ -65,6 +66,7 @@ For example, if the input is 'Welcome', the output will be:
 ['Welcome', 'elcome', 'lcome', 'come', 'ome', 'me', 'e', ''].
 ------------------------------------------------------------------------------------------------ */
 
+
 const howMuchPencil = (str) => {
   let result = [];
   // Solution code here...
@@ -85,15 +87,10 @@ For example, wordsToCharList('gregor') returns ['g','r','e','g','o','r'].
 const wordsToCharList = (arr) => {
   // Solution code here...
   const charArr=[];
-  // let stringnew=arr.charAt(arr.length);
-  // charArr.push(stringnew);
-  // return stringnew;
-  for (let i = 0; i < arr.length; i++) {
-    charArr.push(arr.charAt(i));
-  }
-  return charArr;
-};
 
+  return arr.split('');
+
+};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
@@ -135,16 +132,14 @@ const gruffaloCrumble = {
   ]
 };
 
-
 const listFoods = (recipe) => {
   let result = [];
-  const ingredArr=['Gruffalo','oats','brown sugar','pure maple syrup','chopped nuts','baking soda','baking powder','cinnamon','butter','water'];
-  
-  // Solution code here...
-  for (i=0,i<gruffaloCrumble.ingredients.length,i++){
-    gruffaloCrumble.ingredients.slice(gruffaloCrumble.ingredients.slice(gruffaloCrumble.ingredients.indexOf('gallons')).toString().indexOf('gallons'))[i]
-  
-  }
+  recipe.ingredients.forEach((e)=>{
+    let indxOfSpac = e.indexOf(' ');
+    let item = e.slice(indxOfSpac+1);
+    indxOfSpac = item.indexOf(' ');
+    result.push(item.slice(indxOfSpac+1));
+  });
   return result;
 };
 
