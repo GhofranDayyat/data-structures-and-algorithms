@@ -26,12 +26,18 @@ let starWarsPeople = [
 
 const sortStarWarsCharacters = (starWarsArr) => {
   // Solution code here...
+
+  return starWarsArr.sort((a, b)=>(b.height - a.height));
+
 }
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
 
+
 Write a function named removeThree that takes an index and an array. The function should removes three items in the array starting with the value at the index.
+
+
 ------------------------------------------------------------------------------------------------ */
 
 const removeThree = (idx, arr) => {
@@ -48,8 +54,9 @@ Write a function named joinArray that takes an array and joins all of the elemen
 
 const joinArray = (arr) => {
   // Solution code here...
-  const result =arr.join(" ");
-  return result;
+
+  return arr.join(' ');
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -70,7 +77,7 @@ const howMuchPencil = (str) => {
   // Solution code here...
   for (let i = 0; i < str.length+1; i++) {
     let sliceArr=str.slice(i,str.length);
-    result.push(sliceArr);
+    result.push(str.slice(i,str.length));
   }
   return result;
 };
@@ -85,14 +92,12 @@ For example, wordsToCharList('gregor') returns ['g','r','e','g','o','r'].
 
 const wordsToCharList = (arr) => {
   // Solution code here...
-  const newArr = [];
-  for (let i = 0; i < arr.length; i++) {
-    newArr.push(arr.charAt(i));
-  }
-  return newArr;
+
+  const charArr=[];
+
+  return arr.split('');
+
 };
-
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
 
@@ -133,15 +138,14 @@ const gruffaloCrumble = {
   ]
 };
 
-
 const listFoods = (recipe) => {
   let result = [];
-  // Solution code here...
-  const ingredArr=['Gruffalo','oats', 'brown sugar','flour','pure maple syrup','chopped nuts','baking soda','baking powder','cinnamon','butter','water'];
-  for (let i = 0; i < ingredArr.length; i++) {
-    result.push(gruffaloCrumble.ingredients[i].indexOf([i]));
-
-  }
+  recipe.ingredients.forEach((e)=>{
+    let indxOfSpac = e.indexOf(' ');
+    let item = e.slice(indxOfSpac+1);
+    indxOfSpac = item.indexOf(' ');
+    result.push(item.slice(indxOfSpac+1));
+  });
   return result;
 };
 
@@ -157,6 +161,8 @@ const splitFoods = (recipe) => {
   let result = [];
   // Solution code here...
 
+=======
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------
