@@ -26,13 +26,18 @@ let starWarsPeople = [
 
 const sortStarWarsCharacters = (starWarsArr) => {
   // Solution code here...
+
   return starWarsArr.sort((a, b)=>(b.height - a.height));
+
 }
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
 
-Write a function named removeThree that takes an index and an array. The function should removes three items in the array starting with the value at the index. 
+
+Write a function named removeThree that takes an index and an array. The function should removes three items in the array starting with the value at the index.
+
+
 ------------------------------------------------------------------------------------------------ */
 
 const removeThree = (idx, arr) => {
@@ -49,6 +54,7 @@ Write a function named joinArray that takes an array and joins all of the elemen
 
 const joinArray = (arr) => {
   // Solution code here...
+
   return arr.join(' ');
 
 };
@@ -66,11 +72,11 @@ For example, if the input is 'Welcome', the output will be:
 ['Welcome', 'elcome', 'lcome', 'come', 'ome', 'me', 'e', ''].
 ------------------------------------------------------------------------------------------------ */
 
-
 const howMuchPencil = (str) => {
   let result = [];
   // Solution code here...
   for (let i = 0; i < str.length+1; i++) {
+    let sliceArr=str.slice(i,str.length);
     result.push(str.slice(i,str.length));
   }
   return result;
@@ -86,12 +92,12 @@ For example, wordsToCharList('gregor') returns ['g','r','e','g','o','r'].
 
 const wordsToCharList = (arr) => {
   // Solution code here...
+
   const charArr=[];
 
   return arr.split('');
 
 };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
 
@@ -154,6 +160,8 @@ You may also use other string or array methods.
 const splitFoods = (recipe) => {
   let result = [];
   // Solution code here...
+
+=======
   return result;
 };
 
