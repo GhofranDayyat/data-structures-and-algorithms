@@ -161,7 +161,7 @@ const splitFoods = (recipe) => {
   let result = [];
   // Solution code here...
 
-=======
+
   return result;
 };
 
