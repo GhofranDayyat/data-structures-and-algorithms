@@ -84,6 +84,6 @@ From the root of the `data-structures-and-algorithms` folder, execute the follow
 
 Note that when you check your code into GitHub, all of your tests will automatically execute. These results should match your own, and will be found on the  **Actions** tab
 
-## Whiteboard Screen Shots
-![check](./assets/array-reverse.jpg)
+
+
 
