@@ -5,3 +5,4 @@ function reverseArray(inputArr){
   }
   return reult;
 }
+module.exports=reverseArray;
