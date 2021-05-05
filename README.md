@@ -16,12 +16,6 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 
 ## Table of Contents
-|Code Challeng           |Title               |
-|------------------------|--------------------|
-|Code Challenge: Class 01|Reverse Array       |
-|Code Challenge: Class 02|                    |
-|Code Challenge: Class 03|                    |
-|Code Challenge: Class 04|                    |
-|Code Challenge: Class 05|                    |
-|Code Challenge: Class 06|                    |
-|Code Challenge: Class 07|                    |
+|Code Challeng           |Title                                            |
+|------------------------|-------------------------------------------------|
+|Code Challenge: Class 01|[Reverse Array](./javascript/arrayReverse/README)|
