@@ -15,13 +15,9 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
 
 
-# Table of Contents
-|Code Challeng           |Title                                                                  |
-|------------------------|-----------------------------------------------------------------------|
-|Code Challenge: Class 01|[Reverse Array](./javascript/arrayReverse/README)                      | 
-|Code Challenge: Class 02|[Shift Array](./javascript/arrayShift/README)                          |
-|Code Challenge: Class 03|[binary search](./javascript/arrayBinarySearch/README)                 |
-|Code Challenge: Class 04|                                                                       |
-|Code Challenge: Class 05|                                                                       |
-|Code Challenge: Class 06|                                                                       |
-|Code Challenge: Class 07|                                                                       |
+
+## Table of Contents
+|Code Challeng           |Title                                            |
+|------------------------|-------------------------------------------------|
+|Code Challenge: Class 01|[Reverse Array](./javascript/arrayReverse/README)|
+
