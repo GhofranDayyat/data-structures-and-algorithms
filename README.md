@@ -21,7 +21,3 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 |Code Challenge: Class 01|[Reverse Array](./javascript/arrayReverse/README)|
 |Code Challenge: Class 02|[Shift Array](./javascript/arrayShift/README)    |
 |Code Challenge: Class 03|                                                 |
-|Code Challenge: Class 04|                                                 |
-|Code Challenge: Class 05|                                                 |
-|Code Challenge: Class 06|                                                 |
-|Code Challenge: Class 07|                                                 |
