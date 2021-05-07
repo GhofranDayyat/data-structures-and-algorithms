@@ -20,4 +20,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 |Code Challeng           |Title                                                                          |
 |------------------------|-------------------------------------------------------------------------------|
 |Code Challenge: Class 01|[Reverse Array](https://github.com/GhofranDayyat/data-structures-and-algorithms/blob/main/javascript/arrayReverse/README.md)|
-|Code Challenge: Class 01|[Reverse Array](./javascript/arrayReverse/README)|
+|Code Challenge: Class 01|[Reverse Array](./javascript/arrayReverse/README.md)|
