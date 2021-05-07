@@ -3,9 +3,10 @@ we need function takes in an array and the value to be added at the middle index
 
 ## Challenge Description
 * I specified the the middle index by math.ceil  to make sure where we should add the element 
-* I used splice() to determin the index I want to add the value on it
+* push the first half of the elements  in a new array then push the second parameter then push the last half elements
 
 ## Approach & Efficiency
-this Approach is Efficient to add any value in middle of array index whether the length odd or even
+this Approach is Efficient to add any value in middle of array index whether the length odd or even or the array is empty 
+
 ## Solution
-* Whiteboard  ![check](.././assets/challeng2.jpg)
+* Whiteboard  ![check](.././assets/array-shift.jpg)

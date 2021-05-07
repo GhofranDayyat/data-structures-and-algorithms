@@ -11,3 +11,4 @@ we need function takes in an array and revers the order of the element on it, th
 
 ## Solution
 * Whiteboard  ![check](.././assets/array-reverse.jpg)
+
