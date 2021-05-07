@@ -1,3 +1,4 @@
+
 'use strict';
 function reverseArray(inputArr){
   let result=[];
@@ -7,4 +8,5 @@ function reverseArray(inputArr){
   return result;
 }
 module.exports=reverseArray;
+
 
