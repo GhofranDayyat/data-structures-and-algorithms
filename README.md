@@ -18,4 +18,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 ## Table of Contents
 |Code Challeng           |Title                                            |
 |------------------------|-------------------------------------------------|
-|Code Challenge: Class 01|[Reverse Array](https://github.com/GhofranDayyat/data-structures-and-algorithms/arrayReverse/README)|
+|Code Challenge: Class 01|[Reverse Array](https://ghofrandayyat.github.io/javascript/arrayReverse/README)|
